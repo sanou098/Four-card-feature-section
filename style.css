@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+p, h1, h2, h3{
+    overflow-wrap: break-word;
+}
+article{
+    margin:1.5rem;
+}
+header{
+    margin:1.5rem;
+}
+.normal{
+    font-weight: 300;
+    color: gray;
+    padding-top:2rem;
+    margin-bottom:0;
+}
+.bold-text{
+    color: hsl(234, 12%, 34%);
+    margin-top:0;
+}
+.normal, .bold-text{
+    text-align: center;
+}
+.bold{
+    color: hsl(234, 12%, 34%);
+    margin-top:0;
+}
+.text{
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    font-weight: 500;
+}
+.p-text{
+    color: hsl(229, 6%, 66%);
+    font-weight: 500;
+    margin-top:0;
+    font-size: 0.9em;
+}
+.bold{
+    margin-bottom: 0.3rem;
+}
+.supervisor{
+    margin-top:4rem;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-radius:0.4rem;
+}
+.builder{
+    margin-top:1.5rem;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    border-radius:0.4rem;
+}
+.karma{
+    margin-top:1.5rem;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    border-radius:0.4rem;
+}
+.calculator{
+    margin-top:1.5rem;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    border-radius:0.4rem;
+}
+.box{
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.bold, .p-text{
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+}
+.bold{
+    padding-top:1.5rem;
+}
+.supervisor{
+    background-image: url(icon-supervisor.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 20px right 30px;
+}
+.builder{
+    background-image: url(icon-team-builder.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 20px right 30px;
+}
+.karma{
+    background-image: url(icon-karma.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 20px right 30px;
+}
+.calculator{
+    background-image: url(icon-calculator.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 20px right 30px;
+}
+.p-text{
+    padding-bottom:7rem;
+}
+.box{
+    max-width: 506px;
+    margin:0 auto;
+}
+.builder{
+    padding-bottom:0.1rem;
+}
+.karma{
+    padding-bottom:0.1rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.supervisor{
+    grid-area: one;
+}
+.building{
+    grid-area: two;
+}
+.karmara{
+    grid-area: three;
+}
+.calculator{
+    grid-area: four;
+}
+@media (min-width: 1200px){
+    .box{
+        max-width: 365px;
+    }
+    article{
+        display:flex;
+        align-items:center;
+    }
+    .text{
+        max-width:50%;
+        margin:0 auto;
+    }
+}
