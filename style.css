@@ -131,9 +131,14 @@ header{
     article{
         display:flex;
         align-items:center;
+        max-width:1166px;
+        margin:0 auto;
     }
     .text{
         max-width:50%;
         margin:0 auto;
+    }
+    .building-karma{
+        margin-top:5rem;
     }
 }
